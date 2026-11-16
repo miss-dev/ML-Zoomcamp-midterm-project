@@ -48,4 +48,4 @@ docker build -t grade-predictor .
 docker run -it --rm -p 9696:9696 grade-predictor
 ```
 
-Then run `python3 test.py` in a second terminal to get a prediction from the container.
+Run `python3 test.py` in a second terminal to get a prediction from the container.
